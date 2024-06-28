@@ -56,6 +56,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project -->
+For my Magic Mirror project, I have a one-way mirror which a small screen will sit behind. The Raspberry Pi 4 is the computer running MagicMirror OS, and I have plans to mount it to the back of the display. So far, I have been able to install MagicMirror OS, configure the different modules, and add my own account to the calendar module using vdirsyncer. Both the weather and calendar modules took a long time to configure, however I ended up being able to get it to work at the end by getting my own API key for the weather and changing some settings to sync the . Since this is done, I will start to work on the frame for the mirror and attaching the display and Raspberry Pi to the frame.
 
 # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
