@@ -34,25 +34,14 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 <!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
-<!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BnCfWkVadUs?si=U_ZmSntP_oZweoud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone -->
-My second milestone mainly consisted of planning out the final build and attaching the display and Raspberry Pi to the cardboard backboard. I am very surprised by how fast things are moving along in my project- I completed my first milestone yesterday morning and am already done with my second. After finalizing the calendar and weather modules, I was able to swiftly finish all the OS related issues right before my original SD card broke, which contained all the code I was working on. However, in just a few hours, I was able to recover all my progress and continue the building process of my Smart Mirror. I am now waiting on a 3D printed part that will allow me to do the final assembly of the Smart Mirror, and still allowing me to access the Raspberry Pi to add any software modifications before my final milestone.
+
+My second milestone mainly consisted of planning out the final build and attaching the display and Raspberry Pi to the cardboard backboard. I am very surprised by how fast things are moving along in my project- I completed my first milestone yesterday morning and am already done with my second. After finalizing the calendar and weather modules, I was able to swiftly finish all the OS related issues right before my original SD card broke, which contained all the code I was working on. However, in just a few hours, I was able to recover all my progress and continue the building process of my Smart Mirror. I am now waiting on a 3D printed part that will allow me to do the final assembly of the Magic Mirror, and still allowing me to access the Raspberry Pi to add any software modifications before my final milestone.
+
 # First Milestone
 
-<!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
-
-<!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LYNAZDGK9Ak?si=VZCwPjNqCTDcz1XT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project -->
+
 For my first milestone, I planned to get MagicMirror OS up and running and modify some of the modules to integrate into my life. For the physical project, I have a one-way mirror which a small screen will sit behind, allowing the modules to be visible while still being able to use the object as a mirror. The MagicMirror OS is running with a Raspberry Pi 4, which also allows me to easily customize, edit, and add anything I want using the Linux based Raspbian OS. Later on in the building process, I have plans to mount the Raspberry Pi to the back of the display using a removable yet secure method. So far, I have been able to install MagicMirror OS onto the Raspberry Pi and configure the different pre-installed modules. I added my iCloud account to the calendar module using vdirsyncer, a calendar syncing software, which allows my iCal (Apple Calendar) to sync to the MagicMirror calendar module on it's own. For the weather module, I used OpenWeatherMap's free account to create an API key, which is a unique code that allows an application to identify a user from an external software. I then found the location ID for my city and added it to the code, allowing the weather module to get the weather forecast for my location. Both the weather and calendar modules took a long time to configure, however I ended up being able to get it to work at the end through trial and error. Since the OS is fully configured to my liking, I will start to work on the frame for the mirror and attaching the components to the frame.
 
 # Schematics 
