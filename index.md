@@ -88,6 +88,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 15.6'' FHD IPS Portable Monitor | Display for the Raspberry Pi, allowing the MagicMirror OS to be visible | $81.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | "Anker New Nylon USB C to USB C Cable (6ft 60W, 2-Pack)" | Cables to power the Raspberry Pi 4 and Display | $10.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Nekmit Dual Port USB C Wall Charger, 40W PD | Power brick for the 2 USB-C cables | $26.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 12x18 Picture Frame "(2-pack)" | External frame for the MagicMirror | $22.59 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Cardboard | "Filler for empty space (can also be from boxes)" | $4.39 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 24 Sheets Black Cardstock, 80lb | To fill area around the monitor | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 12 x 18 x 0.04 Inch Acrylic See-Through Mirror | Mirrored acrylic for the MagicMirror | $29.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Gorilla Heavy Duty Double Sided Mounting Tape | Assembling the MagicMirror | $12.24/roll | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Scotch Painter's Tape | Assembling the MagicMirror | $13.99/roll | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Starter Project ~ Calculator
 
