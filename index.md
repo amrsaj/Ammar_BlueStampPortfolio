@@ -75,8 +75,14 @@ Here's where you'll put your code. The syntax below places it into a block of co
 </style>
 </head>
 <body>
+    .center-heading {
+        text-align: center; /* Center align text */
+    }
+</style>
+</head>
+<body>
 
-<h2>config.js</h2>
+<h2 class="center-heading">config.js</h2>
 
 <textarea class="scroll-box" id="myTextarea" readonly>
 // config.js
