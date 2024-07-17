@@ -56,19 +56,21 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 <style>
     .scroll-box {
-        width: 125%; /* Adjust width as needed */
+        width: 100%; /* Adjust width as needed */
         height: 400px; /* Adjust height as needed */
-        overflow: auto; /* Enable scrolling */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+        white-space: nowrap; /* Prevent text wrapping */
         border: 1px solid #ccc; /* Optional: Add a border */
         padding: 10px; /* Optional: Add padding inside the box */
         font-family: 'Courier New', Courier, monospace; /* Optional: Use a monospace font for code */
         font-size: 14px; /* Optional: Adjust font size */
-        line-height: 1.25; /* Optional: Adjust line height */
+        line-height: 1.5; /* Optional: Adjust line height */
     }
 </style>
 <body>
 
-# config.js (Main config file for MagicMirror) 
+<h2> config.js (Main config file for MagicMirror) </h2>
 
 <textarea class="scroll-box" id="myTextarea" readonly>
 // config.js
