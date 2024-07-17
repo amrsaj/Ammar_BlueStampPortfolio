@@ -12,7 +12,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 | Ammar S. | Dublin High School | Mechanical Engineering | Incoming Junior
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
-
+&nbsp;
 <div style="text-align:center">
     <img src="Headshot.png" alt="Headshot" width="248" height="330.75">
 </div>
@@ -48,10 +48,24 @@ For my first milestone, I planned to get MagicMirror OS up and running and modif
 
 # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
-<img src="Schem1.png" width="489" height="302" />
-<img src="Schem2.png" width="489" height="302" />
-<img src="Schem3.png" width="489" height="302" />
-<img src="Schem4.png" width="489" height="302" />
+
+<div style="display:flex; justify-content:center;">
+    <div style="flex: 1; padding: 5px;">
+        <img src="Schem1.png" width="489" height="302">
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <img src="Schem2.png" width="489" height="302" >
+    </div>
+</div>
+&nbsp;
+<div style="display:flex; justify-content:center;">
+    <div style="flex: 1; padding: 5px;">
+        <img src="Schem3.png" width="489" height="302">
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <img src="Schem4.png" width="489" height="302">
+    </div>
+</div>
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
@@ -77,14 +91,8 @@ Here's where you'll put your code. The syntax below places it into a block of co
 </style>
 </head>
 <body>
-    .center-heading {
-        text-align: center; /* Center align text */
-    }
-</style>
-</head>
-<body>
 
-<h2 class="center-heading">config.js</h2>
+<h2> config.js </h2>
 
 <textarea class="scroll-box" id="myTextarea" readonly>
 // config.js
@@ -235,16 +243,10 @@ let config = {
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") { module.exports = config; }
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
 }
 </textarea>
 
 </body>
-</html>
-
 
 # Bill of Materials
 <!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
