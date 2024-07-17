@@ -54,7 +54,6 @@ For my first milestone, I planned to get MagicMirror OS up and running and modif
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -66,7 +65,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
         height: 400px; /* Adjust height as needed */
         overflow-x: auto; /* Enable horizontal scrolling */
         overflow-y: auto; /* Enable vertical scrolling */
-        white-space: pre-wrap; /* Preserve line breaks and wrap text */
+        white-space: pre; /* Preserve line breaks */
         border: 1px solid #ccc; /* Optional: Add a border */
         padding: 10px; /* Optional: Add padding inside the box */
         font-family: 'Courier New', Courier, monospace; /* Optional: Use a monospace font for code */
@@ -77,7 +76,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 </head>
 <body>
 
-<h2>C++ Code in a Scrolling Text Box with Proper Formatting</h2>
+<h2>config.js</h2>
 
 <textarea class="scroll-box" id="myTextarea" readonly>
 // config.js
