@@ -54,11 +54,24 @@ For my first milestone, I planned to get MagicMirror OS up and running and modif
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-<div style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-As you can see, once there's enough text in this box, the box will grow scroll bars... that's why we call it a scroll box! You could also place an image into the scroll box.
-</div>
+<style>
+    .scroll-box {
+        width: 100%; /* Adjust width as needed */
+        height: 400px; /* Adjust height as needed */
+        overflow: auto; /* Enable scrolling */
+        border: 1px solid #ccc; /* Optional: Add a border */
+        padding: 10px; /* Optional: Add padding inside the box */
+        font-family: 'Courier New', Courier, monospace; /* Optional: Use a monospace font for code */
+        font-size: 14px; /* Optional: Adjust font size */
+        line-height: 1.5; /* Optional: Adjust line height */
+    }
+</style>
+</head>
+<body>
 
-```c++
+<h2>C++ Code in a Scrolling Text Box</h2>
+
+<textarea class="scroll-box" id="myTextarea" readonly>
 // config.js
 let config = {
 	address: "0.0.0.0",	// Address to listen on, can be:
@@ -130,9 +143,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "Dublin",
-				locationID: "5344157", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "987807c8f7e76a710c56ad408c4e9244"
+				location: "yourLocation",
+				locationID: "yourLocationID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "yourAPIkey"
 			}
 		},
 		{
@@ -142,9 +155,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "Dublin",
-				locationID: "5344157", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "987807c8f7e76a710c56ad408c4e9244"
+				location: "yourLocation",
+				locationID: "yourLocationID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "yourAPIkey"
 			}
 		},
 		{
@@ -207,13 +220,15 @@ let config = {
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") { module.exports = config; }
-}
 
 void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
+</textarea>
+
+</body>
+</html>
 
 # Bill of Materials
 <!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
