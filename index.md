@@ -51,19 +51,28 @@ For my first milestone, I planned to get MagicMirror OS up and running and modif
 
 <div style="display:flex; justify-content:center;">
     <div style="flex: 1; padding: 5px;">
-        <img src="Schem1.png" width="489" height="302">
+        <img src="schematics/FrameTR.png" width="330" height="255">
     </div>
     <div style="flex: 1; padding: 5px;">
-        <img src="Schem2.png" width="489" height="302" >
+        <img src="schematics/FrameBL.png" width="330" height="255">
     </div>
 </div>
 &nbsp;
 <div style="display:flex; justify-content:center;">
     <div style="flex: 1; padding: 5px;">
-        <img src="Schem3.png" width="489" height="302">
+        <img src="schematics/FrameTL.png" width="330" height="255">
     </div>
     <div style="flex: 1; padding: 5px;">
-        <img src="Schem4.png" width="489" height="302">
+        <img src="schematics/FrameBR.png" width="330" height="255">
+    </div>
+</div>
+&nbsp;
+<div style="display:flex; justify-content:center;">
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/ButtonCasing.png" width="330" height="255">
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/RPI Pins.png" width="330" height="255">
     </div>
 </div>
 
