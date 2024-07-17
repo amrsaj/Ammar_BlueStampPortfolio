@@ -175,9 +175,9 @@ let config = {
             config: {
                 weatherProvider: "openweathermap",
                 type: "current",
-                location: "Dublin",
-                locationID: "5344157", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-                apiKey: "987807c8f7e76a710c56ad408c4e9244"
+                location: "yourLocation",
+                locationID: "yourLocationID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+                apiKey: "yourAPIkey"
             }
         },
         {
@@ -187,9 +187,9 @@ let config = {
             config: {
                 weatherProvider: "openweathermap",
                 type: "forecast",
-                location: "Dublin",
-                locationID: "5344157", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-                apiKey: "987807c8f7e76a710c56ad408c4e9244"
+                location: "yourLocation",
+                locationID: "yourLocationID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+                apiKey: "yourAPIkey"
             }
         },
         {
