@@ -1,5 +1,5 @@
 # Magic Mirror
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The MagicMirror project is a translucent mirror with a display behind it, which displays MagicMirror OS. This OS contains many different modules, such as the current weather, your personal calendar, compliments, and a news feed. It is fully open source and customizable, allowing the user to install and modify the many community made modules designed for MagicMirror OS. The whole system is run off a Raspberry Pi 4, which controls the LED backlight I added as a modification along with MagicMirror OS.
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 
@@ -29,16 +29,36 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE -->
-My final milestone consisted of doing the assembly of the MagicMirror and adding some hardware and software modifications to the final product. From the last milestone, I was able to 
+My final milestone consisted of doing the assembly of the MagicMirror and adding some hardware and software modifications to the final product. From the last milestone, I was able to finish the full assembly of the mirror using the 3D printed parts I designed in OnShape. Additionally, I added the LED's for the backlight of the mirror. However, I faced an issue with the limitations of the Raspberry Pi's 5-volt GPIO pins. Due to the concentration of the LED strip, I could only run about 2 feet, or roughly 30 led's, before the power draw would be too high for the Pi to handle. the solution I came up with composed of me cutting up the led strip and hand soldering over 100 small connections to allow the lights to go all the way around the mirror without an external power brick. I also added the SafeShutdown Button (patent pending) to my mirror, which allows me to safely shutdown the Raspberry Pi by simply pushing the button on the back. This means that the SD Card has less of a risk of being damaged or corrputed if the mirror has to be unplugged from the wall. Through BlueStamp, I was able to learn more about the Raspberry Pi, and how to integrate different components with it using the 40 GPIO pins on the Pi. Additionally, I was able to further my knowledge in 3D design by learning a more sophisticated CAD software (OnShape), and was able to practice my 3D design even more. After all this, I hope to be able to further improve my mirror using the many skills I learned.
 
 
 # Second Milestone
 
-<!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BnCfWkVadUs?si=U_ZmSntP_oZweoud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My second milestone mainly consisted of planning out the final build and attaching the display and Raspberry Pi to the cardboard backboard. I am very surprised by how fast things are moving along in my project- I completed my first milestone yesterday morning and am already done with my second. After finalizing the calendar and weather modules, I was able to swiftly finish all the OS related issues right before my original SD card broke, which contained all the code I was working on. However, in just a few hours, I was able to recover all my progress and continue the building process of my Smart Mirror. I am now waiting on a 3D printed part that will allow me to do the final assembly of the Magic Mirror, and still allowing me to access the Raspberry Pi to add any software modifications before my final milestone. Additionally, I'm also brainstorming ideas for 
+My second milestone mainly consisted of planning out the final build and attaching the display and Raspberry Pi to the cardboard backboard. I am very surprised by how fast things are moving along in my project- I completed my first milestone yesterday morning and am already done with my second. After finalizing the calendar and weather modules, I was able to swiftly finish all the OS related issues right before my original SD card broke, which contained all the code I was working on. However, in just a few hours, I was able to recover all my progress and continue the building process of my Smart Mirror. I am now waiting on a 3D printed part that will allow me to do the final assembly of the Magic Mirror, and still allowing me to access the Raspberry Pi to add any software modifications before my final milestone. Originally, I had designed the part in Tinkercad, however after consulting some of the BlueStamp instructors I was encouraged to use OnShape instead. Having never used it before, I had some trouble figuring it out, but I got used to it after a few hours. I'm also brainstorming ideas for more modules I can add as possible modifications, and possibly writing my own module if I come up with an idea for what it should do. I found some pretty cool modules such as the remote control module, which allows me to connect to the mirror using any device on the same network as it.
+<div style="display:flex; justify-content:center;">
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/FrameTR.png" width="330" height="255">
+        Figure 1: Top Right Frame Extension
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/FrameBL.png" width="330" height="255">
+        Figure 2: Bottom Left Frame Extension
+    </div>
+</div>
+&nbsp;
+<div style="display:flex; justify-content:center;">
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/FrameTL.png" width="330" height="255">
+        Figure 3: Top Left Frame Extension
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <img src="schematics/FrameBR.png" width="330" height="255">
+        Figure 4: Bottom Right Frame Extension
+    </div>
+</div>
+&nbsp;
 
 # First Milestone
 
@@ -49,24 +69,7 @@ For my first milestone, I planned to get MagicMirror OS up and running and modif
 # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
-<div style="display:flex; justify-content:center;">
-    <div style="flex: 1; padding: 5px;">
-        <img src="schematics/FrameTR.png" width="330" height="255">
-    </div>
-    <div style="flex: 1; padding: 5px;">
-        <img src="schematics/FrameBL.png" width="330" height="255">
-    </div>
-</div>
-&nbsp;
-<div style="display:flex; justify-content:center;">
-    <div style="flex: 1; padding: 5px;">
-        <img src="schematics/FrameTL.png" width="330" height="255">
-    </div>
-    <div style="flex: 1; padding: 5px;">
-        <img src="schematics/FrameBR.png" width="330" height="255">
-    </div>
-</div>
-&nbsp;
+
 <div style="display:flex; justify-content:center;">
     <div style="flex: 1; padding: 5px;">
         <img src="schematics/ButtonCasing.png" width="330" height="255">
